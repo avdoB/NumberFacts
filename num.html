@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
+    #img{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 25%;
+    }
+    #frame {
+        background-color: #f2b8c2;
+    }
+    #fact{
+        display:none;
+    }
+    
+</style>
+    <title>Document</title>
+    
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="row">
+           <div class="col-md-6 mx-auto">
+               <div id="frame" class="card  text-white mt-5 p-4">
+                   <h1>Number Facts</h1>
+                   <p>
+                       Type  a number and get a random fact
+                   </p>
+                   <input type="number" class="form-control
+                   form-control-lg" id="numberInput" placeholder="Type a  number...">
+                   <div id="fact" class="card-body">
+                       <h4 class="card-title">Number Fact</h4>
+                       <p id="factText" class="card-text"></p>
+
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+    <img id="img" src="http://clipart-library.com/images_k/brain-clipart-transparent-background/brain-clipart-transparent-background-23.png" alt="">
+    <script src="app.js"></script>
+</body>
+</html>
